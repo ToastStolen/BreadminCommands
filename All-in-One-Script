@@ -1,0 +1,8 @@
+--// KICK PLAYER LOCALSCRIPT
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local kickMessage = "Moderator's Message: You thought this script is for you, nuh uh."
+
+player:Kick(kickMessage)
